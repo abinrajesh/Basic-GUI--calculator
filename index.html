@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="Assets/Calculator_512.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="calculatorBody">
+                <div class="calculatorHead">
+                    <h1>Calculator</h1>
+                </div>
+                <div class="calculatorContent">
+                    <div class="calculatorDisplay">
+                        <input id="screen" type="text" placeholder="0 ">
+                    </div>
+                    <div class="calculatorButtons">
+                        <button onclick="clearScreen()" class="basicFunction" id="allClearBtn">AC</button>
+                        <button onclick="deleteChar()" class="basicFunction" id="clearBtn">Del</button>
+                        <button onclick="btnClick('/')" class="arithmeticOperator" id="divisionBtn">÷</button>
+                        <button onclick="btnClick('*')" class="arithmeticOperator" id="multiplicationBtn">×</button>
+                        <button onclick="btnClick(7)" class="numberBtn" id="sevenBtn">7</button>
+                        <button onclick="btnClick(8)" class="numberBtn" id="eightBtn">8</button>
+                        <button onclick="btnClick(9)" class="numberBtn" id="nineBtn">9</button>
+                        <button onclick="btnClick('-')" class="arithmeticOperator" id="subtractionBtn">−</button>
+                        <button onclick="btnClick(4)" class="numberBtn" id="fourBtn">4</button>
+                        <button onclick="btnClick(5)" class="numberBtn" id="fiveBtn">5</button>
+                        <button onclick="btnClick(6)" class="numberBtn" id="sixBtn">6</button>
+                        <button onclick="btnClick('+')" class="arithmeticOperator" id="additionBtn">+</button>
+                        <button onclick="btnClick(1)" class="numberBtn" id="oneBtn">1</button>
+                        <button onclick="btnClick(2)" class="numberBtn" id="twoBtn">2</button>
+                        <button onclick="btnClick(3)" class="numberBtn" id="threeBtn">3</button>
+                        <button onclick="btnClick(0)" class="numberBtn" id="">0</button>
+                        <button onclick="btnClick('00')" class="numberBtn">00</button>
+                        <button onclick="btnClick('.')" class="numberBtn" id="decimalBtn">⋅</button>
+                        <button onclick="calculate('=')" class="arithmeticOperator" id="equalToBtn">=</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
