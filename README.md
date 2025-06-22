@@ -11,7 +11,7 @@ A simple and clean calculator web app built using **Vanilla HTML, CSS, and JavaS
 
 ## 📸 Preview
 
-![Calculator Preview](assets/Calculator-Screenshot.png)
+![Calculator Preview](Assets/Calculator-Screenshot.png)
 
 
 ## 🛠️ Built With
